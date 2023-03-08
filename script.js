@@ -8,7 +8,7 @@ width= (100/onepage)
 console.log(width)
 for (i=0; i < total; i++) {
   var div = document.createElement("div");
-  div.style.width = width+ "vw";
+  div.style.min-width = width+ "vw";
   div.style.height = "200px";
   div.style.background = "red";
   div.style.display = "flex";
