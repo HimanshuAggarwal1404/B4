@@ -1,0 +1,18 @@
+#content{
+    background-color: #00d9ff;
+    height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.box{
+    color: white;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+}
+body{
+    background-color: #00f7ff;
+}
